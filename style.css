@@ -28,6 +28,9 @@ font-family: Arial, Helvetica, sans-serif;
       .container{
           max-width: 540px;
       }
+      iframe{
+      width: 100%;
+      }
 }
 
 /**tablet portrati**/
