@@ -96,6 +96,9 @@ p.flex1{
     iframe{ 
         width: 50%;
      }
+     p.flex1{
+        width: 45%;
+     }
    
     
 }
