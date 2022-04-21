@@ -3,19 +3,28 @@
     margin: 0;
 }
 body{
-background-color: rgb(8, 245, 245);
+font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
     margin: 0 auto;
-    background-color: antiquewhite;
 }
+
+ img.cit{
+     width: 100%;
+     height: 240px;   
+ }
+
+ img.movel{
+     width: 100%;
+     height: 240px;
+ }
+
+
 
 /*smartphone landscape**/
 @media (min-width: 576px){
-      body{
-          background-color: red;
-      }
+     
       .container{
           max-width: 540px;
       }
@@ -23,8 +32,10 @@ background-color: rgb(8, 245, 245);
 
 /**tablet portrati**/
 @media (min-width: 768px){
-    body{
-        background-color: yellow;
+   
+
+    .container{
+        max-width: 720pxpx;
     }
    
 }
@@ -33,8 +44,9 @@ background-color: rgb(8, 245, 245);
 /*tablet landscape**/
 
 @media (min-width: 992px){
-    body{
-        background-color: blue;
+   
+    .container{
+        max-width: 960px;
     }
     
 }
@@ -42,8 +54,10 @@ background-color: rgb(8, 245, 245);
 
 /*pc e notbooks**/
 @media (min-width: 1200px){
-    body{
-        background-color: green;
+ 
+
+    .container{
+        max-width: 1140px;
     }
     
 }
