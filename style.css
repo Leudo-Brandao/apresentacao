@@ -66,6 +66,7 @@ p.flex1{
  div.movel{
     background: url(./images/movel.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
     text-align: center;
