@@ -45,18 +45,19 @@ p.flex1{
     font-size: 1rem;
 }
 .container{
-    margin: 0 auto;
     width: 100%;
-    padding: 2rem;
+    margin: 0 auto;
 }
  
  .img-header{
      background: url(./images/cit.jpg);
-     background-size: cover;
      background-position: center;
-     height: 240px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 40vh;
      width: 100%;
      text-align: center;
+     margin-top: 2rem;
  }
  p.header{
      color: aliceblue;
