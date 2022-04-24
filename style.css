@@ -64,7 +64,7 @@ p.flex1{
      color: antiquewhite;
  }
  div.movel{
-    background: url(./images/movel.jpg);
+    background-image: url(./images/movel.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
