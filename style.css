@@ -150,8 +150,13 @@ footer{
 
 /*pc e notbooks**/
 @media (min-width: 1200px){
- 
+     .img-header{
+         padding-top: 6rem;
+     }
 
+     div.movel{
+        padding-top: 6rem;
+     }
     .container{
         max-width: 1140px;
     }
