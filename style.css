@@ -70,7 +70,7 @@ p.flex1{
     background-repeat: no-repeat;
     background-size: cover;
     height: 30vh;
-    padding-top: 3rem;
+    padding-top: 4rem;
     margin: auto auto;
     text-align: center;
  }
@@ -124,6 +124,7 @@ footer{
 @media (min-width: 992px){
    
     .container{
+        padding: 1px;
         max-width: 960px;
     }
     iframe{ 
